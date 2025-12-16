@@ -20,4 +20,13 @@ public class HomeController {
     public String hicicd3(){
         return "새로운 개발 cicd 적용 ^^^^^";
     }
+
+    @GetMapping("/hi")
+    public String hi2(){
+        return "HIHIHIHIHI";
+    }
+    @GetMapping("/hi2")
+    public String hi3(){
+        return "1216 cicd2 ^^^";
+    }
 }
